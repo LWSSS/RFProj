@@ -22,6 +22,7 @@
 		0124A9D92238965B000CE6FA /* ApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124A9D82238965B000CE6FA /* ApplicationViewController.m */; };
 		0124A9DC2238966A000CE6FA /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124A9DB2238966A000CE6FA /* UserCenterViewController.m */; };
 		0124A9E02238D22D000CE6FA /* NetworkAssistent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124A9DF2238D22D000CE6FA /* NetworkAssistent.m */; };
+		0124A9E4223B8231000CE6FA /* RFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124A9E3223B8231000CE6FA /* RFDataManager.m */; };
 		ED4FCE6F32C4354955CDA2DB /* libPods-RFProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F65D663755BA88211574AC55 /* libPods-RFProj.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		0124A9DB2238966A000CE6FA /* UserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
 		0124A9DE2238D22D000CE6FA /* NetworkAssistent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAssistent.h; sourceTree = "<group>"; };
 		0124A9DF2238D22D000CE6FA /* NetworkAssistent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAssistent.m; sourceTree = "<group>"; };
+		0124A9E2223B8231000CE6FA /* RFDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFDataManager.h; sourceTree = "<group>"; };
+		0124A9E3223B8231000CE6FA /* RFDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDataManager.m; sourceTree = "<group>"; };
 		5CD967C210FBE65179E1B5AE /* Pods-RFProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFProj/Pods-RFProj.release.xcconfig"; sourceTree = "<group>"; };
 		DD0994D0131CCCE0EE026707 /* Pods-RFProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFProj/Pods-RFProj.debug.xcconfig"; sourceTree = "<group>"; };
 		F65D663755BA88211574AC55 /* libPods-RFProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +132,7 @@
 		0124A98D223893A3000CE6FA /* RFProj */ = {
 			isa = PBXGroup;
 			children = (
+				0124A9E1223B8202000CE6FA /* RFFMDB */,
 				0124A9CC22389605000CE6FA /* UserCenter */,
 				0124A9CB223895FD000CE6FA /* Application */,
 				0124A9CA223895D8000CE6FA /* AddressList */,
@@ -268,6 +272,15 @@
 				0124A9DF2238D22D000CE6FA /* NetworkAssistent.m */,
 			);
 			path = NetworkAssistent;
+			sourceTree = "<group>";
+		};
+		0124A9E1223B8202000CE6FA /* RFFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0124A9E2223B8231000CE6FA /* RFDataManager.h */,
+				0124A9E3223B8231000CE6FA /* RFDataManager.m */,
+			);
+			path = RFFMDB;
 			sourceTree = "<group>";
 		};
 		3AE67CF43283F5F7AB84DA69 /* Frameworks */ = {
@@ -472,6 +485,7 @@
 				0124A9D92238965B000CE6FA /* ApplicationViewController.m in Sources */,
 				0124A993223893A3000CE6FA /* ViewController.m in Sources */,
 				0124A99E223893A7000CE6FA /* main.m in Sources */,
+				0124A9E4223B8231000CE6FA /* RFDataManager.m in Sources */,
 				0124A990223893A3000CE6FA /* AppDelegate.m in Sources */,
 				0124A9E02238D22D000CE6FA /* NetworkAssistent.m in Sources */,
 				0124A9C322389541000CE6FA /* RFNavigationController.m in Sources */,
